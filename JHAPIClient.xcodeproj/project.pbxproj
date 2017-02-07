@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058283599D0FA79854C7DBA2 /* libPods-JHAPIClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C2ED26D203A28263628D3C /* libPods-JHAPIClient.a */; };
+		A8333FB81E4877DD00B2E415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8333FB71E4877DD00B2E415 /* main.m */; };
+		A8333FBB1E4877DD00B2E415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8333FBA1E4877DD00B2E415 /* AppDelegate.m */; };
+		A8333FBE1E4877DD00B2E415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8333FBD1E4877DD00B2E415 /* ViewController.m */; };
+		A8333FC11E4877DD00B2E415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8333FBF1E4877DD00B2E415 /* Main.storyboard */; };
+		A8333FC31E4877DD00B2E415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8333FC21E4877DD00B2E415 /* Assets.xcassets */; };
+		A8333FC61E4877DD00B2E415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8333FC41E4877DD00B2E415 /* LaunchScreen.storyboard */; };
+		A8333FD01E487BE700B2E415 /* JHAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8333FCF1E487BE700B2E415 /* JHAPIClient.m */; };
+		A8333FD31E49BF5400B2E415 /* AppAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8333FD21E49BF5400B2E415 /* AppAPIClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77AD871139513EEDCE1B5FE7 /* Pods-JHAPIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAPIClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHAPIClient/Pods-JHAPIClient.debug.xcconfig"; sourceTree = "<group>"; };
+		A8333FB31E4877DD00B2E415 /* JHAPIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHAPIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8333FB71E4877DD00B2E415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8333FB91E4877DD00B2E415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8333FBA1E4877DD00B2E415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8333FBC1E4877DD00B2E415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8333FBD1E4877DD00B2E415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8333FC01E4877DD00B2E415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8333FC21E4877DD00B2E415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8333FC51E4877DD00B2E415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8333FC71E4877DD00B2E415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8333FCE1E487BE700B2E415 /* JHAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAPIClient.h; sourceTree = "<group>"; };
+		A8333FCF1E487BE700B2E415 /* JHAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAPIClient.m; sourceTree = "<group>"; };
+		A8333FD11E49BF5400B2E415 /* AppAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAPIClient.h; sourceTree = "<group>"; };
+		A8333FD21E49BF5400B2E415 /* AppAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAPIClient.m; sourceTree = "<group>"; };
+		B7C2ED26D203A28263628D3C /* libPods-JHAPIClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHAPIClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBC7641EA3E0F48D8DB28E4 /* Pods-JHAPIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAPIClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHAPIClient/Pods-JHAPIClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8333FB01E4877DD00B2E415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058283599D0FA79854C7DBA2 /* libPods-JHAPIClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A889E77058468F8BA43EA3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C2ED26D203A28263628D3C /* libPods-JHAPIClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AD57A3705919A5F29B81065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77AD871139513EEDCE1B5FE7 /* Pods-JHAPIClient.debug.xcconfig */,
+				BCBC7641EA3E0F48D8DB28E4 /* Pods-JHAPIClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8333FAA1E4877DD00B2E415 = {
+			isa = PBXGroup;
+			children = (
+				A8333FCD1E487BD700B2E415 /* Classes */,
+				A8333FB51E4877DD00B2E415 /* JHAPIClient */,
+				A8333FB41E4877DD00B2E415 /* Products */,
+				2AD57A3705919A5F29B81065 /* Pods */,
+				0A889E77058468F8BA43EA3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8333FB41E4877DD00B2E415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8333FB31E4877DD00B2E415 /* JHAPIClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8333FB51E4877DD00B2E415 /* JHAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				A8333FB91E4877DD00B2E415 /* AppDelegate.h */,
+				A8333FBA1E4877DD00B2E415 /* AppDelegate.m */,
+				A8333FBC1E4877DD00B2E415 /* ViewController.h */,
+				A8333FBD1E4877DD00B2E415 /* ViewController.m */,
+				A8333FBF1E4877DD00B2E415 /* Main.storyboard */,
+				A8333FC21E4877DD00B2E415 /* Assets.xcassets */,
+				A8333FC41E4877DD00B2E415 /* LaunchScreen.storyboard */,
+				A8333FC71E4877DD00B2E415 /* Info.plist */,
+				A8333FB61E4877DD00B2E415 /* Supporting Files */,
+			);
+			path = JHAPIClient;
+			sourceTree = "<group>";
+		};
+		A8333FB61E4877DD00B2E415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8333FB71E4877DD00B2E415 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8333FCD1E487BD700B2E415 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8333FCE1E487BE700B2E415 /* JHAPIClient.h */,
+				A8333FCF1E487BE700B2E415 /* JHAPIClient.m */,
+				A8333FD11E49BF5400B2E415 /* AppAPIClient.h */,
+				A8333FD21E49BF5400B2E415 /* AppAPIClient.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8333FB21E4877DD00B2E415 /* JHAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8333FCA1E4877DD00B2E415 /* Build configuration list for PBXNativeTarget "JHAPIClient" */;
+			buildPhases = (
+				02B7739690160947600FF37F /* [CP] Check Pods Manifest.lock */,
+				A8333FAF1E4877DD00B2E415 /* Sources */,
+				A8333FB01E4877DD00B2E415 /* Frameworks */,
+				A8333FB11E4877DD00B2E415 /* Resources */,
+				A00F4694BA14C3F59CD55BB7 /* [CP] Embed Pods Frameworks */,
+				61E06349FE36D802874D6634 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHAPIClient;
+			productName = JHAPIClient;
+			productReference = A8333FB31E4877DD00B2E415 /* JHAPIClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8333FAB1E4877DD00B2E415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JHModule;
+				TargetAttributes = {
+					A8333FB21E4877DD00B2E415 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8333FAE1E4877DD00B2E415 /* Build configuration list for PBXProject "JHAPIClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8333FAA1E4877DD00B2E415;
+			productRefGroup = A8333FB41E4877DD00B2E415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8333FB21E4877DD00B2E415 /* JHAPIClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8333FB11E4877DD00B2E415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8333FC61E4877DD00B2E415 /* LaunchScreen.storyboard in Resources */,
+				A8333FC31E4877DD00B2E415 /* Assets.xcassets in Resources */,
+				A8333FC11E4877DD00B2E415 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B7739690160947600FF37F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61E06349FE36D802874D6634 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAPIClient/Pods-JHAPIClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00F4694BA14C3F59CD55BB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHAPIClient/Pods-JHAPIClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8333FAF1E4877DD00B2E415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8333FBE1E4877DD00B2E415 /* ViewController.m in Sources */,
+				A8333FD31E49BF5400B2E415 /* AppAPIClient.m in Sources */,
+				A8333FBB1E4877DD00B2E415 /* AppDelegate.m in Sources */,
+				A8333FB81E4877DD00B2E415 /* main.m in Sources */,
+				A8333FD01E487BE700B2E415 /* JHAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8333FBF1E4877DD00B2E415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8333FC01E4877DD00B2E415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8333FC41E4877DD00B2E415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8333FC51E4877DD00B2E415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8333FC81E4877DD00B2E415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8333FC91E4877DD00B2E415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8333FCB1E4877DD00B2E415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AD871139513EEDCE1B5FE7 /* Pods-JHAPIClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHAPIClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHAPIClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8333FCC1E4877DD00B2E415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBC7641EA3E0F48D8DB28E4 /* Pods-JHAPIClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHAPIClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHAPIClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8333FAE1E4877DD00B2E415 /* Build configuration list for PBXProject "JHAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8333FC81E4877DD00B2E415 /* Debug */,
+				A8333FC91E4877DD00B2E415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8333FCA1E4877DD00B2E415 /* Build configuration list for PBXNativeTarget "JHAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8333FCB1E4877DD00B2E415 /* Debug */,
+				A8333FCC1E4877DD00B2E415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8333FAB1E4877DD00B2E415 /* Project object */;
+}
