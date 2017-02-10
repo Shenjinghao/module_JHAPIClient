@@ -7,9 +7,9 @@
 //
 
 #import "JHAPIClient.h"
-#import <AFHTTPRequestOperationManager.h>
-#import <AFURLResponseSerialization.h>
-#import <AFURLRequestSerialization.h>
+#import "AFHTTPRequestOperationManager.h"
+#import "AFURLResponseSerialization.h"
+#import "AFURLRequestSerialization.h"
 
 @interface JHAPIClient ()
 
