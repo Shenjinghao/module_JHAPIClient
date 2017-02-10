@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFHTTPRequestOperation.h"
-#import "AFURLRequestSerialization.h"
+//#import "AFHTTPRequestOperation.h"
+//#import "AFURLRequestSerialization.h"
 
-typedef void (^JHAPISuccessBlock) (AFHTTPRequestOperation *operation, id responseObject);
-typedef void (^JHAPIFailureBlock) (AFHTTPRequestOperation *operation, NSError *error);
+@class AFHTTPRequestOperation;
+@class AFURLRequestSerialization;
+
+//typedef void (^JHAPISuccessBlock) (AFHTTPRequestOperation *operation, id responseObject);
+//typedef void (^JHAPIFailureBlock) (AFHTTPRequestOperation *operation, NSError *error);
 typedef NSString *(^JHAPIURlProcessBlock) (NSString *url);
 typedef NSMutableURLRequest *(^JHAPIRequestProcessBlock) (NSMutableURLRequest *request);
 
@@ -30,8 +33,8 @@ typedef enum {
 @interface JHAPIClient : NSObject
 
 //暴漏可以调用的block
-@property (nonatomic, copy)JHAPISuccessBlock globalSuccessBlock;
-@property (nonatomic, copy)JHAPIFailureBlock globalFailureBlock;
+//@property (nonatomic, copy)JHAPISuccessBlock globalSuccessBlock;
+//@property (nonatomic, copy)JHAPIFailureBlock globalFailureBlock;
 @property (nonatomic, copy)JHAPIURlProcessBlock urlProcessBlock;
 @property (nonatomic, copy)JHAPIRequestProcessBlock requestProcessBlock;
 
