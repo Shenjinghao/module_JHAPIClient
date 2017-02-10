@@ -155,6 +155,7 @@
 				TargetAttributes = {
 					A8333FB21E4877DD00B2E415 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YRMH84M93J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -366,6 +367,7 @@
 			baseConfigurationReference = 77AD871139513EEDCE1B5FE7 /* Pods-JHAPIClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YRMH84M93J;
 				INFOPLIST_FILE = JHAPIClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHAPIClient;
@@ -378,6 +380,7 @@
 			baseConfigurationReference = BCBC7641EA3E0F48D8DB28E4 /* Pods-JHAPIClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YRMH84M93J;
 				INFOPLIST_FILE = JHAPIClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHAPIClient;
