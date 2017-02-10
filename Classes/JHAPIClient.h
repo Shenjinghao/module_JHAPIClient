@@ -6,9 +6,9 @@
 //  Copyright © 2017年 JHModule. All rights reserved.
 //
 
-
-#import <AFHTTPRequestOperation.h>
-#import <AFURLRequestSerialization.h>
+#import <Foundation/Foundation.h>
+#import "AFHTTPRequestOperation.h"
+#import "AFURLRequestSerialization.h"
 
 typedef void (^JHAPISuccessBlock) (AFHTTPRequestOperation *operation, id responseObject);
 typedef void (^JHAPIFailureBlock) (AFHTTPRequestOperation *operation, NSError *error);
