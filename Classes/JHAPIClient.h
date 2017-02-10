@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFHTTPRequestOperation.h>
-#import <AFURLRequestSerialization.h>
+//#import <AFHTTPRequestOperation.h>
+//#import <AFURLRequestSerialization.h>
+@class AFHTTPRequestOperation;
+@class AFHTTPRequestSerializer;
 
 
 typedef void (^JHAPISuccessBlock) (AFHTTPRequestOperation *operation, id responseObject);
